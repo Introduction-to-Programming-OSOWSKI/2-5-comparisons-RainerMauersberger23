@@ -1,7 +1,8 @@
-def greaterThan(x, y):
-    if x > y:
+def lessOrEqual(x, y):
+    if x <= y:
         return True
     else:
         return False
 
-print(greaterThan(5, 10))
+print(lessOrEqual(5, 10))
+ 
